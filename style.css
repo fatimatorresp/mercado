@@ -1,0 +1,54 @@
+
+
+.componente{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px gray; 
+ }
+ 
+ .componente:hover{
+   box-shadow: 3px 3px 10px pink; 
+   transform: scale(1.15);
+ }
+ .compon{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px gray; 
+ }
+ .componente:hover{
+   box-shadow: 3px 3px 10px pink; 
+   transform: scale(1.05);
+ }
+ .compon:hover{
+   box-shadow: 3px 3px 10px green; 
+   transform: scale(1.05);
+ }
+ .contenedor-grid{
+   width: 20%;
+   display: grid;
+   grid-auto-columns:auto;
+   grid-auto-rows: auto;
+   grid-template-areas: auto / auto / auto / auto;
+   }
+ 
+ 
+ .imagenes{
+   width: 100px;
+   margin:auto;
+ }
+ 
+ #entrada:focus{
+   margin: 10px;
+   /* background-color: cyan; */
+   box-shadow: 3px 3px 5px gray; 
+ }
